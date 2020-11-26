@@ -1,0 +1,19 @@
+{
+  "name": "medkismet_back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "watch": "nodemon app",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "messaging-api-telegram": "^1.0.1",
+    "node-telegram-bot-api": "^0.50.0",
+    "nodemon": "^2.0.6"
+  }
+}
